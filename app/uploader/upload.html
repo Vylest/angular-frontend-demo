@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <strong class="">Upload</strong>
+                </div>
+                <div class="panel-body" ng-controller="UploadCtrl">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="inputFile3" class="col-sm-3 control-label">Email</label>
+                            <div class="col-sm-9">
+                                <input type="file" class="form-control" id="inputFile3" file-model="myFile">
+                            </div>
+                        </div>
+                        <div class="form-group last">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <button type="submit" class="btn btn-success btn-sm"  ng-click="uploadFile()">Upload</button>
+                                <button type="reset" class="btn btn-default btn-sm">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
